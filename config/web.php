@@ -9,7 +9,7 @@ $config = [
     'modules' => [
         'gii' => [
             'class' => 'yii\gii\Module',    
-        ]
+        ],
         'datecontrol' =>  [
             'class' => '\kartik\datecontrol\Module'
         ]
