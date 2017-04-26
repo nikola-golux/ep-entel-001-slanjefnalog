@@ -29,14 +29,20 @@ MANUALNO RESENJE: korisnici u dogovorom sa MIS sluzbom posalju DVD, flash disk i
 Administrator ga smesti preko ftp naloga na server i link prema tom fajlu (koji je spoljno vidljiva web adresa) i polje mejlu korisniku koji je to tarzio.
 Korisnik ga dalje distribuira gde zeli
 SCENARIO APLIKACIJE: 
-AKCIJA 1. OTVARANJE NALOGA: prvo otvoriti nalog za aplikaciju u koji ce upisati napomenu tj. objasnjenje fajla i koje ce da se ugradi u sadrzaj mejl i definise zastitu fajla.
+AKCIJA 1.
+```
+OTVARANJE NALOGA: prvo otvoriti nalog za aplikaciju u koji ce upisati napomenu tj. objasnjenje fajla i koje ce da se ugradi u sadrzaj mejl i definise zastitu fajla.
 Default dana za brisanje fajla sa servera je 5 dana, ali može da se postavi i vise.
 Zavrsetak akcije je ubacivanje naloga u bazu tj. upis rekorda u tabelu slanjefnalog osim polja datvrem_mejl
 Napomena: Nalog može da se menja ili obrise sve dok polje datvrem_mejl nije definisano (ovo polje se definiše u akciji 3)
+```
 AKCIJA 2.
+```
 Spuštanje fajlova na server. Biranje jednog ili više fajlova i njihovo ubacivanje u tabelu slanjefajlovi
 Popunjava sva polja osim polja datvrem_del koje se popunjava kada se fajl obrise sa servera (AKCIJA 4)
+```
 AKCIJA 3
+```
 Akcija OVEARA tj. GENERISI MEJL - Generise se mejl. 
 U mejlu se ispisuje slanjefnalog.napomena i upozorenje do kada se može preuzeti fajl, jer se iz bezbednosnih razloga brise.
 ispsuju se link tj. linkovi ako ima više fajlova (hesovan) prema fajlu 
@@ -49,10 +55,16 @@ Napomena 1: u prvoj verziji aplikacije slanje mejla ide samo na standardan nači
 Kasnije cemo probati varijante sa vecim nivoom tajnosti- sa zipovanjem i postavljanjem pasvorda ili sms kodom i slicno 
 Napomena 2: Mejl moze vise puta da se salje dok god fajl tj. fajlovi nisu obrisani, ali se ne radi update datvrem_mejl
 Tj. ako datvrem_mejl postoji definisan a pokrenuta je akcija GENERISI MEJL, treba napraviti kontrolu da li je fajl aktivan ( u odnosu na datvrem_mejl + dmn_cuvaj_dana ), i ako je aktivno moze da se ponovo generise mejl.
+```
 AKCIJA 4 
+```
 II Faza aplikacije- Krteirati aplikaciju koja jednom dnevno proverava da li ima sta za brisanje od fajlova prema podacima slanjefajlova.datvrem i slanjefnalog.dmn_cuvaj_dana
 Napomena: jedan nalog moze da sadrzi jedan ili vise fajlova, mada korisnicima treba preporuciti da urade kompresiju fajlova u jedan ZIP fajl.
+```
+
 TABELE
+------------
+
 TABELA 1.
 EDNEV.SLANJEFNALOG   
 ```
@@ -65,18 +77,18 @@ EDNEV.SLANJEFNALOG
 TABELA 2.
 EDNEV.SLANJEFAJLOVI
 ```
-id,id_slanjefnalog,ime_fajla,mesto,size_MB,datvrem,datvrem_del
-SISTEMSKE TABELA 
-PRACENJE
-VIEW NA POSTOJECE TABELE
-entel
-entel.id = id_entel 
-mejl adresa na koju se mejl salje je  entel.username@ep-entel.com 
-username= $_SESSION[korisnik_k];
-ili
-$dobav[id_entel] = $GLOBALS[aId]
-sifarnik
-domen='zemlja' / dmn_zemlja ne postavlja se cita se
-domen= 'cuvaj_dana' sifranik.vrednost se upisuje u polje dmn_cuvaj_dana
-domen='nivo_zastita' -II- , prazno je standardno - sada samo ovo i radimo
+    id,id_slanjefnalog,ime_fajla,mesto,size_MB,datvrem,datvrem_del
+    SISTEMSKE TABELA 
+    PRACENJE
+    VIEW NA POSTOJECE TABELE
+    entel
+    entel.id = id_entel 
+    mejl adresa na koju se mejl salje je  entel.username@ep-entel.com 
+    username= $_SESSION[korisnik_k];
+    ili
+    $dobav[id_entel] = $GLOBALS[aId]
+    sifarnik
+    domen='zemlja' / dmn_zemlja ne postavlja se cita se
+    domen= 'cuvaj_dana' sifranik.vrednost se upisuje u polje dmn_cuvaj_dana
+    domen='nivo_zastita' -II- , prazno je standardno - sada samo ovo i radimo
 ```
