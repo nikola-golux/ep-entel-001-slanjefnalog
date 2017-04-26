@@ -54,18 +54,17 @@ II Faza aplikacije- Krteirati aplikaciju koja jednom dnevno proverava da li ima 
 Napomena: jedan nalog moze da sadrzi jedan ili vise fajlova, mada korisnicima treba preporuciti da urade kompresiju fajlova u jedan ZIP fajl.
 TABELE
 TABELA 1.
-EDNEV.SLANJEFNALOG
-'''
-id,dmn_zemlja,id_entel,dmn_nivo_zastita,dmn_cuvaj_dana,napomena,datvrem_mejl, file_route
-dmn_zemlja=$_SESSION[loginCountry]
-id_entel se postavlja iz tabele entel 
-id_entel <= entel.id 
-spajanje : entel.username = $_SESSION[korisnik_k]
-'''
-
+EDNEV.SLANJEFNALOG   
+```
+    id,dmn_zemlja,id_entel,dmn_nivo_zastita,dmn_cuvaj_dana,napomena,datvrem_mejl, file_route
+    dmn_zemlja=$_SESSION[loginCountry]
+    id_entel se postavlja iz tabele entel 
+    id_entel <= entel.id 
+    spajanje : entel.username = $_SESSION[korisnik_k]
+```
 TABELA 2.
 EDNEV.SLANJEFAJLOVI
-'''
+```
 id,id_slanjefnalog,ime_fajla,mesto,size_MB,datvrem,datvrem_del
 SISTEMSKE TABELA 
 PRACENJE
@@ -80,4 +79,4 @@ sifarnik
 domen='zemlja' / dmn_zemlja ne postavlja se cita se
 domen= 'cuvaj_dana' sifranik.vrednost se upisuje u polje dmn_cuvaj_dana
 domen='nivo_zastita' -II- , prazno je standardno - sada samo ovo i radimo
-'''
+```
