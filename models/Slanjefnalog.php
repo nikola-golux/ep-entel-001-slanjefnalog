@@ -51,11 +51,11 @@ class Slanjefnalog extends \yii\db\ActiveRecord
         return [
             'id' => 'ID',
             'dmn_zemlja' => 'Dmn Zemlja',
-            'id_entel' => 'Id Entel',
+            'id_entel' => 'Korisnik',
             'dmn_nivo_zastita' => 'Dmn Nivo Zastita',
-            'dmn_cuvaj_dana' => 'Dmn Cuvaj Dana',
+            'dmn_cuvaj_dana' => 'Koliko dana cuvati podatke na serveru?',
             'napomena' => 'Napomena',
-            'datvrem_mejl' => 'Datvrem Mejl',
+            'datvrem_mejl' => 'Datum postavke podataka na server',
         ];
     }
 

@@ -2,6 +2,7 @@
 
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
+use kartik\datecontrol\DateControl;
 
 /* @var $this yii\web\View */
 /* @var $model app\models\Slanjefnalog */
@@ -22,7 +23,15 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'napomena')->textInput(['maxlength' => true]) ?>
 
-    <?= $form->field($model, 'datvrem_mejl')->textInput() ?>
+    <?= $form->field($model, 'datvrem_mejl')->widget(DateControl::classname(), [
+        'type'=>DateControl::FORMAT_DATE,
+        'ajaxConversion'=>false,
+        'widgetOptions' => [
+            'pluginOptions' => [
+                'autoclose' => true
+            ]
+        ]
+    ]); ?>
 
     <div class="form-group">
         <?= Html::submitButton($model->isNewRecord ? 'Create' : 'Update', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>
