@@ -6,7 +6,8 @@ use yii\widgets\DetailView;
 /* @var $this yii\web\View */
 /* @var $model app\models\Slanjefnalog */
 
-$this->title = $model->id;
+//$this->title = $model->id;
+$this->title = "Pregled naloga";
 $this->params['breadcrumbs'][] = ['label' => 'Slanjefnalogs', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
@@ -37,5 +38,9 @@ $this->params['breadcrumbs'][] = $this->title;
             'datvrem_mejl',
         ],
     ]) ?>
+    <p>
+        <?= Html::a('Posalji email', ['sendemail', 'id' => $model->id], ['class' => 'btn btn-primary']) ?>
+    </p>
+
 
 </div>

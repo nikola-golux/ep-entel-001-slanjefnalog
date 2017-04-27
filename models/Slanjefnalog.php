@@ -19,6 +19,7 @@ use Yii;
  */
 class Slanjefnalog extends \yii\db\ActiveRecord
 {
+
     /**
      * @inheritdoc
      */

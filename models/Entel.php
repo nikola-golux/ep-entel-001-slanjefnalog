@@ -14,6 +14,8 @@ use Yii;
  */
 class Entel extends \yii\db\ActiveRecord
 {
+    //public $ime_i_prezime = $this->First_name." ".$this->Last_name;
+
     /**
      * @inheritdoc
      */
@@ -30,6 +32,7 @@ class Entel extends \yii\db\ActiveRecord
         return [
             [['id'], 'integer'],
             [['Last_name', 'First_name', 'user_name'], 'string', 'max' => 100],
+            [['ime_i_prezime'], 'safe'],
         ];
     }
 

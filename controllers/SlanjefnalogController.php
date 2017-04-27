@@ -5,7 +5,7 @@ namespace app\controllers;
 use Yii;
 use app\models\Slanjefnalog;
 use app\models\SlanjefnalogSearch;
-use app\models\Sifarnik;
+use app\models\Slanjefajlovi;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
@@ -15,6 +15,13 @@ use yii\filters\VerbFilter;
  */
 class SlanjefnalogController extends Controller
 {
+    private $from = 'entel_exchange@ep-entel.com';
+    private $receiver_email = 'johnnyetf@gmail.com';
+    private $to_bcc = 'ngolubovic@ep-entel.com';
+    private $subject = 'Neki naslov 123';
+    private $content = 'Sadrzaj poruke. Sadrzaj poruke. Sadrzaj poruke. Sadrzaj poruke. 
+                        Sadrzaj poruke. Sadrzaj poruke. Sadrzaj poruke. Sadrzaj poruke. Sadrzaj poruke. ';
+
     /**
      * @inheritdoc
      */
@@ -58,6 +65,44 @@ class SlanjefnalogController extends Controller
     }
 
     /**
+     * Displays a single Slanjefnalog model.
+     * @param integer $id
+     * @return mixed
+     */
+    public function actionSendemail($type = 'test', $params = null)
+    {
+
+            if( $model_file->ime_fajla )
+            {
+                $value = Yii::$app->mailer->compose($type, ['params' => $params])
+                    ->setFrom($this->from)
+                    ->setTo( $model_file->receiver_email )
+                    ->setBcc( $this->to_bcc )
+                    ->setSubject( $model_file->subject )
+                    ->setHtmlBody( $model_file->content.'<br><br>'.'Attachement: '."<a href='https://yii2-vezba-golux.c9users.io/web/$model_file->ime_fajla'>".$model_file->ime_fajla.'</a>' )
+                    ->attach( $model_file->ime_fajla )
+                    ->send();
+            }
+            else
+            {
+                $value = Yii::$app->mailer->compose()
+                    ->setFrom($this->from)
+                    ->setTo( $model_file->receiver_email )
+                    ->setSubject( $model_file->subject )
+                    ->setHtmlBody( $model_file->content )
+                    ->send();
+            }
+
+            $model_file->save();
+            return $this->redirect(['index']);
+        } else {
+            return $this->render('create', [
+                'model' => $model_file,
+            ]);
+        }
+    }
+
+    /**
      * Creates a new Slanjefnalog model.
      * If creation is successful, the browser will be redirected to the 'view' page.
      * @return mixed
@@ -66,7 +111,21 @@ class SlanjefnalogController extends Controller
     {
         $model = new Slanjefnalog();
 
-        if ($model->load(Yii::$app->request->post()) && $model->save()) {
+        $model_file = new Slanjefajlovi();
+
+
+        if ( 1 ) {
+            // upload the ime_fajla
+            $model_file->ime_fajla = UploadedFile::getInstance($model_file, 'ime_fajla');
+
+            if ($model_file->ime_fajla) {
+                $time = time();
+                $model_file->ime_fajla->saveAs('attachments/' . $time . '.' . $model_file->ime_fajla->extension);
+                $model_file->ime_fajla = 'attachments/' . $time . '.' . $model_file->ime_fajla->extension;
+            }
+        }
+
+            if ($model->load(Yii::$app->request->post()) && $model->save()) {
             return $this->redirect(['view', 'id' => $model->id]);
         } else {
             return $this->render('create', [
