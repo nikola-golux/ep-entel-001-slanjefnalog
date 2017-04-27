@@ -11,8 +11,8 @@ $config = [
             'class' => 'yii\gii\Module',    
         ],
         'datecontrol' =>  [
-            'class' => '\kartik\datecontrol\Module'
-        ]
+            'class' => '\kartik\datecontrol\Module',
+        ],
     ],
     'components' => [
         'request' => [
