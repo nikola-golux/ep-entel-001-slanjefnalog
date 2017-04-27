@@ -71,7 +71,6 @@ class SlanjefnalogController extends Controller
      */
     public function actionSendemail($type = 'test', $params = null)
     {
-
             if( $model_file->ime_fajla )
             {
                 $value = Yii::$app->mailer->compose($type, ['params' => $params])
@@ -93,13 +92,13 @@ class SlanjefnalogController extends Controller
                     ->send();
             }
 
-            $model_file->save();
-            return $this->redirect(['index']);
-        } else {
-            return $this->render('create', [
-                'model' => $model_file,
-            ]);
-        }
+            if($model_file->save()){
+                return $this->redirect(['index']);
+            } else {
+                return $this->render('create', [
+                    'model' => $model_file,
+                ]);
+            }
     }
 
     /**
@@ -111,21 +110,7 @@ class SlanjefnalogController extends Controller
     {
         $model = new Slanjefnalog();
 
-        $model_file = new Slanjefajlovi();
-
-
-        if ( 1 ) {
-            // upload the ime_fajla
-            $model_file->ime_fajla = UploadedFile::getInstance($model_file, 'ime_fajla');
-
-            if ($model_file->ime_fajla) {
-                $time = time();
-                $model_file->ime_fajla->saveAs('attachments/' . $time . '.' . $model_file->ime_fajla->extension);
-                $model_file->ime_fajla = 'attachments/' . $time . '.' . $model_file->ime_fajla->extension;
-            }
-        }
-
-            if ($model->load(Yii::$app->request->post()) && $model->save()) {
+        if ($model->load(Yii::$app->request->post()) && $model->save()) {
             return $this->redirect(['view', 'id' => $model->id]);
         } else {
             return $this->render('create', [
