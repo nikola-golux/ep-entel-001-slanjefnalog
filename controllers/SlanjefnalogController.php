@@ -5,6 +5,7 @@ namespace app\controllers;
 use Yii;
 use app\models\Slanjefnalog;
 use app\models\SlanjefnalogSearch;
+use app\models\Sifarnik;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
