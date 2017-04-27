@@ -1,0 +1,352 @@
+a:11:{s:6:"config";a:5:{s:10:"phpVersion";s:6:"5.4.20";s:10:"yiiVersion";s:8:"2.0.11.2";s:11:"application";a:8:{s:3:"yii";s:8:"2.0.11.2";s:4:"name";s:14:"My Application";s:7:"version";s:3:"1.0";s:8:"language";s:5:"en-US";s:14:"sourceLanguage";s:5:"en-US";s:7:"charset";s:5:"UTF-8";s:3:"env";s:3:"dev";s:5:"debug";b:1;}s:3:"php";a:5:{s:7:"version";s:6:"5.4.20";s:6:"xdebug";b:0;s:3:"apc";b:0;s:8:"memcache";b:1;s:9:"memcached";b:1;}s:10:"extensions";a:5:{s:24:"yiisoft/yii2-swiftmailer";a:3:{s:4:"name";s:24:"yiisoft/yii2-swiftmailer";s:7:"version";s:7:"2.0.6.0";s:5:"alias";a:1:{s:16:"@yii/swiftmailer";s:61:"/home/epnet/slanjefnalog-yii2/vendor/yiisoft/yii2-swiftmailer";}}s:22:"yiisoft/yii2-bootstrap";a:3:{s:4:"name";s:22:"yiisoft/yii2-bootstrap";s:7:"version";s:7:"2.0.6.0";s:5:"alias";a:1:{s:14:"@yii/bootstrap";s:59:"/home/epnet/slanjefnalog-yii2/vendor/yiisoft/yii2-bootstrap";}}s:18:"yiisoft/yii2-debug";a:3:{s:4:"name";s:18:"yiisoft/yii2-debug";s:7:"version";s:7:"2.0.9.0";s:5:"alias";a:1:{s:10:"@yii/debug";s:55:"/home/epnet/slanjefnalog-yii2/vendor/yiisoft/yii2-debug";}}s:16:"yiisoft/yii2-gii";a:3:{s:4:"name";s:16:"yiisoft/yii2-gii";s:7:"version";s:7:"2.0.5.0";s:5:"alias";a:1:{s:8:"@yii/gii";s:53:"/home/epnet/slanjefnalog-yii2/vendor/yiisoft/yii2-gii";}}s:18:"yiisoft/yii2-faker";a:3:{s:4:"name";s:18:"yiisoft/yii2-faker";s:7:"version";s:7:"2.0.3.0";s:5:"alias";a:1:{s:10:"@yii/faker";s:55:"/home/epnet/slanjefnalog-yii2/vendor/yiisoft/yii2-faker";}}}}s:7:"request";a:14:{s:7:"flashes";a:0:{}s:10:"statusCode";i:200;s:14:"requestHeaders";a:13:{s:4:"host";s:10:"10.1.2.181";s:10:"connection";s:10:"keep-alive";s:14:"content-length";s:3:"690";s:13:"cache-control";s:9:"max-age=0";s:6:"origin";s:17:"http://10.1.2.181";s:25:"upgrade-insecure-requests";s:1:"1";s:10:"user-agent";s:104:"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36";s:12:"content-type";s:33:"application/x-www-form-urlencoded";s:6:"accept";s:74:"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8";s:7:"referer";s:49:"http://10.1.2.181/slanjefnalog-yii2/web/gii/model";s:15:"accept-encoding";s:13:"gzip, deflate";s:15:"accept-language";s:35:"sr-RS,sr;q=0.8,en-US;q=0.6,en;q=0.4";s:6:"cookie";s:216:"_csrf=1ef32210e7854e205b03db9dbbca48be9dd8678ec9c02db167174b2f5e40b3a5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22H1GwqR1mH473GcrXEETLnqwIVgagu1ZV%22%3B%7D; PHPSESSID=g2v02fcpjuk3v9pdbi5pr17iphfbkhsk";}s:15:"responseHeaders";a:2:{s:12:"X-Powered-By";s:10:"PHP/5.4.20";s:12:"Content-Type";s:24:"text/html; charset=UTF-8";}s:5:"route";s:16:"gii/default/view";s:6:"action";s:51:"yii\gii\controllers\DefaultController::actionView()";s:12:"actionParams";a:1:{i:0;s:5:"model";}s:11:"requestBody";a:3:{s:12:"Content Type";s:33:"application/x-www-form-urlencoded";s:3:"Raw";s:690:"_csrf=UV83UlNyXzEZbnAlIiBuXBlrAGEUES1pFBpjHj0DKHgHOFY1JkMFZw%3D%3D&Generator%5BtableName%5D=slanjefajlovi&Generator%5BmodelClass%5D=Slanjefajlovi&Generator%5Bns%5D=app%5Cmodels&Generator%5BbaseClass%5D=yii%5Cdb%5CActiveRecord&Generator%5Bdb%5D=db&Generator%5BuseTablePrefix%5D=0&Generator%5BgenerateRelations%5D=all&Generator%5BgenerateLabelsFromComments%5D=0&Generator%5BgenerateQuery%5D=0&Generator%5BqueryNs%5D=app%5Cmodels&Generator%5BqueryClass%5D=SlanjefajloviQuery&Generator%5BqueryBaseClass%5D=yii%5Cdb%5CActiveQuery&Generator%5BenableI18N%5D=0&Generator%5BmessageCategory%5D=app&Generator%5BuseSchemaName%5D=0&Generator%5BuseSchemaName%5D=1&Generator%5Btemplate%5D=default&preview=";s:17:"Decoded to Params";a:3:{s:5:"_csrf";s:56:"UV83UlNyXzEZbnAlIiBuXBlrAGEUES1pFBpjHj0DKHgHOFY1JkMFZw==";s:9:"Generator";a:16:{s:9:"tableName";s:13:"slanjefajlovi";s:10:"modelClass";s:13:"Slanjefajlovi";s:2:"ns";s:10:"app\models";s:9:"baseClass";s:19:"yii\db\ActiveRecord";s:2:"db";s:2:"db";s:14:"useTablePrefix";s:1:"0";s:17:"generateRelations";s:3:"all";s:26:"generateLabelsFromComments";s:1:"0";s:13:"generateQuery";s:1:"0";s:7:"queryNs";s:10:"app\models";s:10:"queryClass";s:18:"SlanjefajloviQuery";s:14:"queryBaseClass";s:18:"yii\db\ActiveQuery";s:10:"enableI18N";s:1:"0";s:15:"messageCategory";s:3:"app";s:13:"useSchemaName";s:1:"1";s:8:"template";s:7:"default";}s:7:"preview";s:0:"";}}s:6:"SERVER";a:40:{s:15:"REDIRECT_STATUS";s:3:"200";s:9:"HTTP_HOST";s:10:"10.1.2.181";s:15:"HTTP_CONNECTION";s:10:"keep-alive";s:14:"CONTENT_LENGTH";s:3:"690";s:18:"HTTP_CACHE_CONTROL";s:9:"max-age=0";s:11:"HTTP_ORIGIN";s:17:"http://10.1.2.181";s:30:"HTTP_UPGRADE_INSECURE_REQUESTS";s:1:"1";s:15:"HTTP_USER_AGENT";s:104:"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36";s:12:"CONTENT_TYPE";s:33:"application/x-www-form-urlencoded";s:11:"HTTP_ACCEPT";s:74:"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8";s:12:"HTTP_REFERER";s:49:"http://10.1.2.181/slanjefnalog-yii2/web/gii/model";s:20:"HTTP_ACCEPT_ENCODING";s:13:"gzip, deflate";s:20:"HTTP_ACCEPT_LANGUAGE";s:35:"sr-RS,sr;q=0.8,en-US;q=0.6,en;q=0.4";s:11:"HTTP_COOKIE";s:216:"_csrf=1ef32210e7854e205b03db9dbbca48be9dd8678ec9c02db167174b2f5e40b3a5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22H1GwqR1mH473GcrXEETLnqwIVgagu1ZV%22%3B%7D; PHPSESSID=g2v02fcpjuk3v9pdbi5pr17iphfbkhsk";s:4:"PATH";s:60:"/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin";s:16:"SERVER_SIGNATURE";s:74:"<address>Apache/2.4.6 (Linux/SUSE) Server at 10.1.2.181 Port 80</address>
+";s:15:"SERVER_SOFTWARE";s:25:"Apache/2.4.6 (Linux/SUSE)";s:11:"SERVER_NAME";s:10:"10.1.2.181";s:11:"SERVER_ADDR";s:10:"10.1.2.181";s:11:"SERVER_PORT";s:2:"80";s:11:"REMOTE_ADDR";s:10:"10.1.2.154";s:13:"DOCUMENT_ROOT";s:11:"/home/epnet";s:14:"REQUEST_SCHEME";s:4:"http";s:14:"CONTEXT_PREFIX";s:0:"";s:21:"CONTEXT_DOCUMENT_ROOT";s:11:"/home/epnet";s:12:"SERVER_ADMIN";s:18:"[no address given]";s:15:"SCRIPT_FILENAME";s:43:"/home/epnet/slanjefnalog-yii2/web/index.php";s:11:"REMOTE_PORT";s:5:"44150";s:12:"REDIRECT_URL";s:32:"/slanjefnalog-yii2/web/gii/model";s:17:"GATEWAY_INTERFACE";s:7:"CGI/1.1";s:15:"SERVER_PROTOCOL";s:8:"HTTP/1.1";s:14:"REQUEST_METHOD";s:4:"POST";s:12:"QUERY_STRING";s:0:"";s:11:"REQUEST_URI";s:32:"/slanjefnalog-yii2/web/gii/model";s:11:"SCRIPT_NAME";s:32:"/slanjefnalog-yii2/web/index.php";s:8:"PHP_SELF";s:32:"/slanjefnalog-yii2/web/index.php";s:18:"REQUEST_TIME_FLOAT";d:1493206830.770999908447265625;s:12:"REQUEST_TIME";i:1493206830;s:4:"argv";a:0:{}s:4:"argc";i:0;}s:3:"GET";a:1:{s:2:"id";s:5:"model";}s:4:"POST";a:3:{s:5:"_csrf";s:56:"UV83UlNyXzEZbnAlIiBuXBlrAGEUES1pFBpjHj0DKHgHOFY1JkMFZw==";s:9:"Generator";a:16:{s:9:"tableName";s:13:"slanjefajlovi";s:10:"modelClass";s:13:"Slanjefajlovi";s:2:"ns";s:10:"app\models";s:9:"baseClass";s:19:"yii\db\ActiveRecord";s:2:"db";s:2:"db";s:14:"useTablePrefix";s:1:"0";s:17:"generateRelations";s:3:"all";s:26:"generateLabelsFromComments";s:1:"0";s:13:"generateQuery";s:1:"0";s:7:"queryNs";s:10:"app\models";s:10:"queryClass";s:18:"SlanjefajloviQuery";s:14:"queryBaseClass";s:18:"yii\db\ActiveQuery";s:10:"enableI18N";s:1:"0";s:15:"messageCategory";s:3:"app";s:13:"useSchemaName";s:1:"1";s:8:"template";s:7:"default";}s:7:"preview";s:0:"";}s:6:"COOKIE";a:2:{s:5:"_csrf";s:130:"1ef32210e7854e205b03db9dbbca48be9dd8678ec9c02db167174b2f5e40b3a5a:2:{i:0;s:5:"_csrf";i:1;s:32:"H1GwqR1mH473GcrXEETLnqwIVgagu1ZV";}";s:9:"PHPSESSID";s:32:"g2v02fcpjuk3v9pdbi5pr17iphfbkhsk";}s:5:"FILES";a:0:{}s:7:"SESSION";a:0:{}}s:3:"log";a:1:{s:8:"messages";a:28:{i:0;a:6:{i:0;s:33:"Bootstrap with yii\log\Dispatcher";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1493206830.7860600948333740234375;i:4;a:0:{}i:5;i:2278328;}i:1;a:6:{i:0;s:21:"Loading module: debug";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1493206830.786098957061767578125;i:4;a:0:{}i:5;i:2281432;}i:2;a:6:{i:0;s:44:"Bootstrap with yii\debug\Module::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1493206830.7908370494842529296875;i:4;a:0:{}i:5;i:2884992;}i:3;a:6:{i:0;s:19:"Loading module: gii";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1493206830.7931931018829345703125;i:4;a:0:{}i:5;i:3145112;}i:4;a:6:{i:0;s:42:"Bootstrap with yii\gii\Module::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1493206830.7935330867767333984375;i:4;a:0:{}i:5;i:3197704;}i:8;a:6:{i:0;s:35:"Route requested: 'gii/default/view'";i:1;i:8;i:2;s:34:"yii\web\Application::handleRequest";i:3;d:1493206830.79658603668212890625;i:4;a:0:{}i:5;i:3574024;}i:9;a:6:{i:0;s:30:"Route to run: gii/default/view";i:1;i:8;i:2;s:30:"yii\base\Controller::runAction";i:3;d:1493206830.7981369495391845703125;i:4;a:0:{}i:5;i:3802544;}i:10;a:6:{i:0;s:67:"Running action: yii\gii\controllers\DefaultController::actionView()";i:1;i:8;i:2;s:36:"yii\base\InlineAction::runWithParams";i:3;d:1493206830.8069050312042236328125;i:4;a:0:{}i:5;i:5016384;}i:11;a:6:{i:0;s:38:"SHOW FULL COLUMNS FROM `slanjefajlovi`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1493206830.8217771053314208984375;i:4;a:0:{}i:5;i:6954992;}i:12;a:6:{i:0;s:57:"Opening DB connection: mysql:host=localhost;dbname=ngtest";i:1;i:4;i:2;s:23:"yii\db\Connection::open";i:3;d:1493206830.8218600749969482421875;i:4;a:0:{}i:5;i:6963152;}i:17;a:6:{i:0;s:613:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'slanjefajlovi' AND kcu.table_name = 'slanjefajlovi'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1493206830.8268420696258544921875;i:4;a:0:{}i:5;i:7009240;}i:20;a:6:{i:0;s:11:"SHOW TABLES";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1493206830.8290660381317138671875;i:4;a:0:{}i:5;i:7136976;}i:23;a:6:{i:0;s:30:"SHOW FULL COLUMNS FROM `entel`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1493206830.8294379711151123046875;i:4;a:0:{}i:5;i:7143592;}i:26;a:6:{i:0;s:597:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'entel' AND kcu.table_name = 'entel'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1493206830.8343770503997802734375;i:4;a:0:{}i:5;i:7154352;}i:29;a:6:{i:0;s:33:"SHOW FULL COLUMNS FROM `pracenje`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1493206830.83481597900390625;i:4;a:0:{}i:5;i:7156032;}i:32;a:6:{i:0;s:603:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'pracenje' AND kcu.table_name = 'pracenje'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1493206830.838222980499267578125;i:4;a:0:{}i:5;i:7172640;}i:35;a:6:{i:0;s:33:"SHOW FULL COLUMNS FROM `sifarnik`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1493206830.8386380672454833984375;i:4;a:0:{}i:5;i:7174504;}i:38;a:6:{i:0;s:603:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'sifarnik' AND kcu.table_name = 'sifarnik'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1493206830.8427031040191650390625;i:4;a:0:{}i:5;i:7187976;}i:41;a:6:{i:0;s:37:"SHOW FULL COLUMNS FROM `slanjefnalog`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1493206830.8431069850921630859375;i:4;a:0:{}i:5;i:7189680;}i:44;a:6:{i:0;s:611:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'slanjefnalog' AND kcu.table_name = 'slanjefnalog'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1493206830.846187114715576171875;i:4;a:0:{}i:5;i:7203312;}i:47;a:6:{i:0;s:33:"SHOW CREATE TABLE `slanjefajlovi`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1493206830.8474309444427490234375;i:4;a:0:{}i:5;i:7318288;}i:50;a:6:{i:0;s:33:"SHOW CREATE TABLE `slanjefajlovi`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1493206830.847958087921142578125;i:4;a:0:{}i:5;i:7327952;}i:53;a:6:{i:0;s:109:"Rendering view file: /home/epnet/slanjefnalog-yii2/vendor/yiisoft/yii2-gii/generators/model/default/model.php";i:1;i:8;i:2;s:25:"yii\base\View::renderFile";i:3;d:1493206830.849893093109130859375;i:4;a:0:{}i:5;i:7515216;}i:54;a:6:{i:0;s:97:"Rendering view file: /home/epnet/slanjefnalog-yii2/vendor/yiisoft/yii2-gii/views/default/view.php";i:1;i:8;i:2;s:25:"yii\base\View::renderFile";i:3;d:1493206830.8502368927001953125;i:4;a:0:{}i:5;i:7513312;}i:55;a:6:{i:0;s:100:"Rendering view file: /home/epnet/slanjefnalog-yii2/vendor/yiisoft/yii2-gii/generators/model/form.php";i:1;i:8;i:2;s:25:"yii\base\View::renderFile";i:3;d:1493206830.855082035064697265625;i:4;a:0:{}i:5;i:8229776;}i:56;a:6:{i:0;s:103:"Rendering view file: /home/epnet/slanjefnalog-yii2/vendor/yiisoft/yii2-gii/views/default/view/files.php";i:1;i:8;i:2;s:25:"yii\base\View::renderFile";i:3;d:1493206830.8659369945526123046875;i:4;a:0:{}i:5;i:8488280;}i:57;a:6:{i:0;s:102:"Rendering view file: /home/epnet/slanjefnalog-yii2/vendor/yiisoft/yii2-gii/views/layouts/generator.php";i:1;i:8;i:2;s:25:"yii\base\View::renderFile";i:3;d:1493206830.8670690059661865234375;i:4;a:0:{}i:5;i:8462232;}i:58;a:6:{i:0;s:97:"Rendering view file: /home/epnet/slanjefnalog-yii2/vendor/yiisoft/yii2-gii/views/layouts/main.php";i:1;i:8;i:2;s:25:"yii\base\View::renderFile";i:3;d:1493206830.8677809238433837890625;i:4;a:0:{}i:5;i:8547656;}}}s:9:"profiling";a:3:{s:6:"memory";i:9060200;s:4:"time";d:0.09640789031982421875;s:8:"messages";a:28:{i:13;a:6:{i:0;s:57:"Opening DB connection: mysql:host=localhost;dbname=ngtest";i:1;i:80;i:2;s:23:"yii\db\Connection::open";i:3;d:1493206830.8219110965728759765625;i:4;a:0:{}i:5;i:6964376;}i:14;a:6:{i:0;s:57:"Opening DB connection: mysql:host=localhost;dbname=ngtest";i:1;i:96;i:2;s:23:"yii\db\Connection::open";i:3;d:1493206830.82231903076171875;i:4;a:0:{}i:5;i:6973880;}i:15;a:6:{i:0;s:38:"SHOW FULL COLUMNS FROM `slanjefajlovi`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1493206830.8223819732666015625;i:4;a:0:{}i:5;i:6970840;}i:16;a:6:{i:0;s:38:"SHOW FULL COLUMNS FROM `slanjefajlovi`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1493206830.8260591030120849609375;i:4;a:0:{}i:5;i:6988344;}i:18;a:6:{i:0;s:613:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'slanjefajlovi' AND kcu.table_name = 'slanjefajlovi'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1493206830.82691097259521484375;i:4;a:0:{}i:5;i:7012024;}i:19;a:6:{i:0;s:613:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'slanjefajlovi' AND kcu.table_name = 'slanjefajlovi'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1493206830.827310085296630859375;i:4;a:0:{}i:5;i:7014912;}i:21;a:6:{i:0;s:11:"SHOW TABLES";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1493206830.829144954681396484375;i:4;a:0:{}i:5;i:7138840;}i:22;a:6:{i:0;s:11:"SHOW TABLES";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1493206830.82935810089111328125;i:4;a:0:{}i:5;i:7141160;}i:24;a:6:{i:0;s:30:"SHOW FULL COLUMNS FROM `entel`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1493206830.82948207855224609375;i:4;a:0:{}i:5;i:7145504;}i:25;a:6:{i:0;s:30:"SHOW FULL COLUMNS FROM `entel`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1493206830.8340051174163818359375;i:4;a:0:{}i:5;i:7155464;}i:27;a:6:{i:0;s:597:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'entel' AND kcu.table_name = 'entel'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1493206830.834434032440185546875;i:4;a:0:{}i:5;i:7157184;}i:28;a:6:{i:0;s:597:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'entel' AND kcu.table_name = 'entel'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1493206830.8347299098968505859375;i:4;a:0:{}i:5;i:7158832;}i:30;a:6:{i:0;s:33:"SHOW FULL COLUMNS FROM `pracenje`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1493206830.8348610401153564453125;i:4;a:0:{}i:5;i:7157944;}i:31;a:6:{i:0;s:33:"SHOW FULL COLUMNS FROM `pracenje`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1493206830.8377010822296142578125;i:4;a:0:{}i:5;i:7179728;}i:33;a:6:{i:0;s:603:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'pracenje' AND kcu.table_name = 'pracenje'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1493206830.8382790088653564453125;i:4;a:0:{}i:5;i:7175728;}i:34;a:6:{i:0;s:603:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'pracenje' AND kcu.table_name = 'pracenje'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1493206830.8385579586029052734375;i:4;a:0:{}i:5;i:7177376;}i:36;a:6:{i:0;s:33:"SHOW FULL COLUMNS FROM `sifarnik`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1493206830.8386819362640380859375;i:4;a:0:{}i:5;i:7176416;}i:37;a:6:{i:0;s:33:"SHOW FULL COLUMNS FROM `sifarnik`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1493206830.84228992462158203125;i:4;a:0:{}i:5;i:7192240;}i:39;a:6:{i:0;s:603:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'sifarnik' AND kcu.table_name = 'sifarnik'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1493206830.8427560329437255859375;i:4;a:0:{}i:5;i:7190808;}i:40;a:6:{i:0;s:603:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'sifarnik' AND kcu.table_name = 'sifarnik'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1493206830.8430259227752685546875;i:4;a:0:{}i:5;i:7192456;}i:42;a:6:{i:0;s:37:"SHOW FULL COLUMNS FROM `slanjefnalog`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1493206830.843151092529296875;i:4;a:0:{}i:5;i:7191592;}i:43;a:6:{i:0;s:37:"SHOW FULL COLUMNS FROM `slanjefnalog`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1493206830.8457829952239990234375;i:4;a:0:{}i:5;i:7207232;}i:45;a:6:{i:0;s:611:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'slanjefnalog' AND kcu.table_name = 'slanjefnalog'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1493206830.84624004364013671875;i:4;a:0:{}i:5;i:7206144;}i:46;a:6:{i:0;s:611:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'slanjefnalog' AND kcu.table_name = 'slanjefnalog'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1493206830.846497058868408203125;i:4;a:0:{}i:5;i:7207792;}i:48;a:6:{i:0;s:33:"SHOW CREATE TABLE `slanjefajlovi`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1493206830.847484111785888671875;i:4;a:0:{}i:5;i:7320200;}i:49;a:6:{i:0;s:33:"SHOW CREATE TABLE `slanjefajlovi`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1493206830.8476409912109375;i:4;a:0:{}i:5;i:7323448;}i:51;a:6:{i:0;s:33:"SHOW CREATE TABLE `slanjefajlovi`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1493206830.84801197052001953125;i:4;a:0:{}i:5;i:7329864;}i:52;a:6:{i:0;s:33:"SHOW CREATE TABLE `slanjefajlovi`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1493206830.8481199741363525390625;i:4;a:0:{}i:5;i:7332424;}}}s:2:"db";a:1:{s:8:"messages";a:26:{i:15;a:6:{i:0;s:38:"SHOW FULL COLUMNS FROM `slanjefajlovi`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1493206830.8223819732666015625;i:4;a:0:{}i:5;i:6970840;}i:16;a:6:{i:0;s:38:"SHOW FULL COLUMNS FROM `slanjefajlovi`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1493206830.8260591030120849609375;i:4;a:0:{}i:5;i:6988344;}i:18;a:6:{i:0;s:613:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'slanjefajlovi' AND kcu.table_name = 'slanjefajlovi'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1493206830.82691097259521484375;i:4;a:0:{}i:5;i:7012024;}i:19;a:6:{i:0;s:613:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'slanjefajlovi' AND kcu.table_name = 'slanjefajlovi'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1493206830.827310085296630859375;i:4;a:0:{}i:5;i:7014912;}i:21;a:6:{i:0;s:11:"SHOW TABLES";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1493206830.829144954681396484375;i:4;a:0:{}i:5;i:7138840;}i:22;a:6:{i:0;s:11:"SHOW TABLES";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1493206830.82935810089111328125;i:4;a:0:{}i:5;i:7141160;}i:24;a:6:{i:0;s:30:"SHOW FULL COLUMNS FROM `entel`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1493206830.82948207855224609375;i:4;a:0:{}i:5;i:7145504;}i:25;a:6:{i:0;s:30:"SHOW FULL COLUMNS FROM `entel`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1493206830.8340051174163818359375;i:4;a:0:{}i:5;i:7155464;}i:27;a:6:{i:0;s:597:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'entel' AND kcu.table_name = 'entel'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1493206830.834434032440185546875;i:4;a:0:{}i:5;i:7157184;}i:28;a:6:{i:0;s:597:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'entel' AND kcu.table_name = 'entel'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1493206830.8347299098968505859375;i:4;a:0:{}i:5;i:7158832;}i:30;a:6:{i:0;s:33:"SHOW FULL COLUMNS FROM `pracenje`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1493206830.8348610401153564453125;i:4;a:0:{}i:5;i:7157944;}i:31;a:6:{i:0;s:33:"SHOW FULL COLUMNS FROM `pracenje`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1493206830.8377010822296142578125;i:4;a:0:{}i:5;i:7179728;}i:33;a:6:{i:0;s:603:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'pracenje' AND kcu.table_name = 'pracenje'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1493206830.8382790088653564453125;i:4;a:0:{}i:5;i:7175728;}i:34;a:6:{i:0;s:603:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'pracenje' AND kcu.table_name = 'pracenje'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1493206830.8385579586029052734375;i:4;a:0:{}i:5;i:7177376;}i:36;a:6:{i:0;s:33:"SHOW FULL COLUMNS FROM `sifarnik`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1493206830.8386819362640380859375;i:4;a:0:{}i:5;i:7176416;}i:37;a:6:{i:0;s:33:"SHOW FULL COLUMNS FROM `sifarnik`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1493206830.84228992462158203125;i:4;a:0:{}i:5;i:7192240;}i:39;a:6:{i:0;s:603:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'sifarnik' AND kcu.table_name = 'sifarnik'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1493206830.8427560329437255859375;i:4;a:0:{}i:5;i:7190808;}i:40;a:6:{i:0;s:603:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'sifarnik' AND kcu.table_name = 'sifarnik'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1493206830.8430259227752685546875;i:4;a:0:{}i:5;i:7192456;}i:42;a:6:{i:0;s:37:"SHOW FULL COLUMNS FROM `slanjefnalog`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1493206830.843151092529296875;i:4;a:0:{}i:5;i:7191592;}i:43;a:6:{i:0;s:37:"SHOW FULL COLUMNS FROM `slanjefnalog`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1493206830.8457829952239990234375;i:4;a:0:{}i:5;i:7207232;}i:45;a:6:{i:0;s:611:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'slanjefnalog' AND kcu.table_name = 'slanjefnalog'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1493206830.84624004364013671875;i:4;a:0:{}i:5;i:7206144;}i:46;a:6:{i:0;s:611:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'slanjefnalog' AND kcu.table_name = 'slanjefnalog'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1493206830.846497058868408203125;i:4;a:0:{}i:5;i:7207792;}i:48;a:6:{i:0;s:33:"SHOW CREATE TABLE `slanjefajlovi`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1493206830.847484111785888671875;i:4;a:0:{}i:5;i:7320200;}i:49;a:6:{i:0;s:33:"SHOW CREATE TABLE `slanjefajlovi`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1493206830.8476409912109375;i:4;a:0:{}i:5;i:7323448;}i:51;a:6:{i:0;s:33:"SHOW CREATE TABLE `slanjefajlovi`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1493206830.84801197052001953125;i:4;a:0:{}i:5;i:7329864;}i:52;a:6:{i:0;s:33:"SHOW CREATE TABLE `slanjefajlovi`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1493206830.8481199741363525390625;i:4;a:0:{}i:5;i:7332424;}}}s:6:"assets";a:8:{s:19:"yii\web\JqueryAsset";a:9:{s:10:"sourcePath";s:54:"/home/epnet/slanjefnalog-yii2/vendor/bower/jquery/dist";s:2:"js";a:1:{i:0;s:9:"jquery.js";}s:8:"basePath";s:49:"/home/epnet/slanjefnalog-yii2/web/assets/dd85419e";s:7:"baseUrl";s:38:"/slanjefnalog-yii2/web/assets/dd85419e";s:7:"depends";a:0:{}s:3:"css";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:30:"yii\validators\ValidationAsset";a:9:{s:10:"sourcePath";s:56:"/home/epnet/slanjefnalog-yii2/vendor/yiisoft/yii2/assets";s:2:"js";a:1:{i:0;s:17:"yii.validation.js";}s:7:"depends";a:1:{i:0;s:16:"yii\web\YiiAsset";}s:8:"basePath";s:49:"/home/epnet/slanjefnalog-yii2/web/assets/c6f070ba";s:7:"baseUrl";s:38:"/slanjefnalog-yii2/web/assets/c6f070ba";s:3:"css";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:16:"yii\web\YiiAsset";a:9:{s:10:"sourcePath";s:56:"/home/epnet/slanjefnalog-yii2/vendor/yiisoft/yii2/assets";s:2:"js";a:1:{i:0;s:6:"yii.js";}s:7:"depends";a:1:{i:0;s:19:"yii\web\JqueryAsset";}s:8:"basePath";s:49:"/home/epnet/slanjefnalog-yii2/web/assets/c6f070ba";s:7:"baseUrl";s:38:"/slanjefnalog-yii2/web/assets/c6f070ba";s:3:"css";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:27:"yii\widgets\ActiveFormAsset";a:9:{s:10:"sourcePath";s:56:"/home/epnet/slanjefnalog-yii2/vendor/yiisoft/yii2/assets";s:2:"js";a:1:{i:0;s:17:"yii.activeForm.js";}s:7:"depends";a:1:{i:0;s:16:"yii\web\YiiAsset";}s:8:"basePath";s:49:"/home/epnet/slanjefnalog-yii2/web/assets/c6f070ba";s:7:"baseUrl";s:38:"/slanjefnalog-yii2/web/assets/c6f070ba";s:3:"css";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:16:"yii\gii\GiiAsset";a:9:{s:10:"sourcePath";s:60:"/home/epnet/slanjefnalog-yii2/vendor/yiisoft/yii2-gii/assets";s:3:"css";a:1:{i:0;s:8:"main.css";}s:2:"js";a:1:{i:0;s:6:"gii.js";}s:7:"depends";a:4:{i:0;s:16:"yii\web\YiiAsset";i:1;s:28:"yii\bootstrap\BootstrapAsset";i:2;s:34:"yii\bootstrap\BootstrapPluginAsset";i:3;s:22:"yii\gii\TypeAheadAsset";}s:8:"basePath";s:49:"/home/epnet/slanjefnalog-yii2/web/assets/f59891a5";s:7:"baseUrl";s:38:"/slanjefnalog-yii2/web/assets/f59891a5";s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:28:"yii\bootstrap\BootstrapAsset";a:9:{s:10:"sourcePath";s:57:"/home/epnet/slanjefnalog-yii2/vendor/bower/bootstrap/dist";s:3:"css";a:1:{i:0;s:17:"css/bootstrap.css";}s:8:"basePath";s:49:"/home/epnet/slanjefnalog-yii2/web/assets/82710f58";s:7:"baseUrl";s:38:"/slanjefnalog-yii2/web/assets/82710f58";s:7:"depends";a:0:{}s:2:"js";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:34:"yii\bootstrap\BootstrapPluginAsset";a:9:{s:10:"sourcePath";s:57:"/home/epnet/slanjefnalog-yii2/vendor/bower/bootstrap/dist";s:2:"js";a:1:{i:0;s:15:"js/bootstrap.js";}s:7:"depends";a:2:{i:0;s:19:"yii\web\JqueryAsset";i:1;s:28:"yii\bootstrap\BootstrapAsset";}s:8:"basePath";s:49:"/home/epnet/slanjefnalog-yii2/web/assets/82710f58";s:7:"baseUrl";s:38:"/slanjefnalog-yii2/web/assets/82710f58";s:3:"css";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}s:22:"yii\gii\TypeAheadAsset";a:9:{s:10:"sourcePath";s:60:"/home/epnet/slanjefnalog-yii2/vendor/bower/typeahead.js/dist";s:2:"js";a:1:{i:0;s:19:"typeahead.bundle.js";}s:7:"depends";a:2:{i:0;s:28:"yii\bootstrap\BootstrapAsset";i:1;s:34:"yii\bootstrap\BootstrapPluginAsset";}s:8:"basePath";s:49:"/home/epnet/slanjefnalog-yii2/web/assets/176bdd2b";s:7:"baseUrl";s:38:"/slanjefnalog-yii2/web/assets/176bdd2b";s:3:"css";a:0:{}s:9:"jsOptions";a:0:{}s:10:"cssOptions";a:0:{}s:14:"publishOptions";a:0:{}}}s:4:"mail";a:0:{}s:8:"timeline";a:3:{s:5:"start";d:1493206830.7764060497283935546875;s:3:"end";d:1493206830.872912883758544921875;s:6:"memory";i:9060200;}s:4:"user";N;s:6:"router";a:1:{s:8:"messages";a:3:{i:5;a:6:{i:0;a:3:{s:4:"rule";s:3:"gii";s:5:"match";b:0;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1493206830.796494007110595703125;i:4;a:0:{}i:5;i:3571688;}i:6;a:6:{i:0;s:42:"Request parsed with URL rule: gii/<id:\w+>";i:1;i:8;i:2;s:29:"yii\web\UrlRule::parseRequest";i:3;d:1493206830.7965381145477294921875;i:4;a:0:{}i:5;i:3575584;}i:7;a:6:{i:0;a:3:{s:4:"rule";s:12:"gii/<id:\w+>";s:5:"match";b:1;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1493206830.7965629100799560546875;i:4;a:0:{}i:5;i:3575536;}}}s:7:"summary";a:9:{s:3:"tag";s:13:"5900872ec12f4";s:3:"url";s:49:"http://10.1.2.181/slanjefnalog-yii2/web/gii/model";s:4:"ajax";i:0;s:6:"method";s:4:"POST";s:2:"ip";s:10:"10.1.2.154";s:4:"time";d:1493206830.770999908447265625;s:10:"statusCode";i:200;s:8:"sqlCount";i:13;s:9:"mailCount";i:0;}}
