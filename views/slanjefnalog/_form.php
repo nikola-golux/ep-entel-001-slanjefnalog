@@ -7,6 +7,7 @@ use app\models\Sifarnik;
 use app\models\Entel;
 use kartik\datecontrol\DateControl;
 
+
 /* @var $this yii\web\View */
 /* @var $model app\models\Slanjefnalog */
 /* @var $form yii\widgets\ActiveForm */
@@ -15,11 +16,6 @@ use kartik\datecontrol\DateControl;
 <div class="slanjefnalog-form">
 
     <?php $form = ActiveForm::begin(); ?>
-
-    <?= $form->field($model, 'id_entel')->dropDownList(
-        ArrayHelper::map(Entel::find()->all(), 'id', "First_name"),
-        ['prompt'=>'Korisnik']);
-    ?>
 
     <?= $form->field($model, 'dmn_zemlja')->dropDownList(
         ArrayHelper::map(Sifarnik::find()->where(['domen' => zemlja])->all(), 'domen1', 'vrednost'),
@@ -47,6 +43,9 @@ use kartik\datecontrol\DateControl;
             ]
         ]
     ]); ?>
+
+    <?= $form->field($model_fajlovi, 'ime_fajla')->fileInput(['maxlength' => 255]) ?>
+
 
     <div class="form-group">
         <?= Html::submitButton($model->isNewRecord ? 'Create' : 'Update', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>

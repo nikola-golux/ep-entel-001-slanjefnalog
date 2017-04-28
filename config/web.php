@@ -34,7 +34,28 @@ $config = [
             // send all mails to a file by default. You have to set
             // 'useFileTransport' to false and configure a transport
             // for the mailer to send real emails.
-            'useFileTransport' => true,
+            'useFileTransport' => false,
+            // Gmail
+
+            'transport' => [
+                'class' => 'Swift_SmtpTransport',
+                'host' => 'smtp.gmail.com',
+                'username' => 'ngolubovic.entel',
+                'password' => 'entel123',
+                'port' => '587',
+                'encryption' => 'tls',
+            ],
+
+            // Energoprojekt Entel
+            /*
+            'transport' => [
+            'class' => 'Swift_SmtpTransport',
+            'host' => '195.252.108.10',
+            'username' => 'entel_exchange@ep-entel.com',
+            'password' => '3ScHz8H9',
+            'port' => '25',
+            ],
+            */
         ],
         'log' => [
             'traceLevel' => YII_DEBUG ? 3 : 0,
